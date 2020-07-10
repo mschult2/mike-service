@@ -1,7 +1,7 @@
 ﻿<#
 .SYNOPSIS
-    Builds the Device Announcer projects App and Service and publishes them to the Release folder.
-    Note: if you see "failed to get information" from nuget site, rerunning several times may fix this.
+    Build the service.
+	If you failure from NuGet about not getting dependencies, try rebuilding
 #>
 Param
 (
